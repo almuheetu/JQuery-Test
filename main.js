@@ -1,1 +1,1 @@
-$("h1").text('goodby')
+$(".my-div h1,#p1,h1").text('goodbye')
