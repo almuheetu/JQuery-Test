@@ -4,8 +4,13 @@
 
 
 
- $("h1").css("color", "red");
- $("h1").css("font-size", "3rem");
- $("h1").css("font-style", "italic");
- $("h1").css("font-family", "Poppins");
+//  $("h1").css("color", "red");
+//  $("h1").css("font-size", "3rem");
+//  $("h1").css("font-style", "italic");
 
+
+//  $("h1").css({"color":"black","font-size":"100px","font-style":"italic"});
+
+
+
+$("h1").addClass("style1 style2")
