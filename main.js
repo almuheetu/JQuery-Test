@@ -15,6 +15,7 @@
 
 // $("h1").addClass("style1 style2")
 
-$("button").click(function() {
-    $("h1").text("you have clicked the button")
-})
+// $("button").click(function() {
+//     $("h1").text("you have clicked the button")
+//     $("h1").toggleClass("style1")
+// });
