@@ -19,3 +19,9 @@
 //     $("h1").text("you have clicked the button")
 //     $("h1").toggleClass("style1")
 // });
+
+
+$(".myButton").click(function () {
+    var value = this.innerHTML;
+    $("h1").text(value + " is clicked")
+});
