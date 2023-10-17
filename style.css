@@ -1,8 +1,13 @@
-.style1 {
+/* .style1 {
     font-size: 3em;
     color: brown;
     font-style: italic;
-}
-.style2 {
-    
+} */
+.div-style {
+    display: none;
+    height: 250px;
+    width: 800px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightcoral;
 }

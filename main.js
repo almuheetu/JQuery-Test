@@ -26,19 +26,31 @@
 //     $("h1").text(value + " is clicked")
 // });
 
-$("#loginBtn").on("click", function () {
-    var password1 = $("#pass1").val();
-    var password2 = $("#pass2").val();
+// $("#loginBtn").on("click", function () {
+//     var password1 = $("#pass1").val();
+//     var password2 = $("#pass2").val();
 
 
-    if (password1 != "" && password2 != "") {
-        if (password1 == password2) {
-            alert("successfully login")
-        }
-        else {
-            alert("password mismatch")
-        }       
-    } else {
-        alert("please enter password")
-    }
-});
+//     if (password1 != "" && password2 != "") {
+//         if (password1 == password2) {
+//             alert("successfully login")
+//         }
+//         else {
+//             alert("password mismatch")
+//         }       
+//     } else {
+//         alert("please enter password")
+//     }
+// });
+
+$("#btn").click(function() {
+    
+
+    // $("#div1").hide(2000).show(2000);
+    // $("#div1").toggle(2000);
+    // $("#div1").fadeOut(2000);
+    // $("#div1").fadeOut(2000).fadeIn(2000);
+    $("#div1").fadeToggle(2000);
+
+
+})
