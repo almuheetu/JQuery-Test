@@ -13,4 +13,4 @@
 
 
 
-$("h1").addClass("style1 style2")
+// $("h1").addClass("style1 style2")
