@@ -21,7 +21,19 @@
 // });
 
 
-$(".myButton").click(function () {
-    var value = this.innerHTML;
-    $("h1").text(value + " is clicked")
-});
+// $(".myButton").click(function () {
+//     var value = this.innerHTML;
+//     $("h1").text(value + " is clicked")
+// });
+
+$("#loginBtn").on("click", function () {
+    var password1 = $("#pass1").val();
+    var password2 = $("#pass2").val();
+
+
+    if (password1 != "" && password2 != "") {
+        if (password1 == password2) {
+            
+        }
+    }
+})
