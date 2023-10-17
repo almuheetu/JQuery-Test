@@ -33,7 +33,12 @@ $("#loginBtn").on("click", function () {
 
     if (password1 != "" && password2 != "") {
         if (password1 == password2) {
-            
+            alert("successfully login")
         }
+        else {
+            alert("password mismatch")
+        }       
+    } else {
+        alert("please enter password")
     }
-})
+});
