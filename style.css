@@ -4,10 +4,10 @@ body {
 }
 
 .login-container {
-	width: 350px;
+	width: 300px;
 	margin: 0 auto;
 	background-color: #fff;
-	padding: 30px;
+	padding: 20px 30px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 	text-align: center;
@@ -22,16 +22,17 @@ h1 {
 }
 
 button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* height: 180%; */
 }
 
 button i {
@@ -53,9 +54,9 @@ linkedin {
     color: #fff;
 }
 
-.email {
-    background-color: #2196F3;
-    color: #fff;
+.linkedin {
+	background: #0A66C2;
+	color: #fff;
 }
 
 input {
@@ -68,8 +69,9 @@ input {
 
 .terms {
 	font-size: .75rem;
-	padding: 5px 44px;
+	padding: 5px 15px;
 	line-height: 1rem;
+	margin-bottom: 15px;
 }
 
 a {
@@ -78,4 +80,20 @@ a {
 }
 .login-container p {
 	font-size: .75rem;
+}
+.GoTo_login {
+	font-size: .75em;
+	border-top: 1px solid green;
+	padding-top: 20px;
+}
+.terms a {
+	color: #000;
+	font-weight: bold;
+}
+
+.google i {
+	font-size: 1rem;
+	background: #fff;
+	color: #000;
+	padding: 5px;
 }
