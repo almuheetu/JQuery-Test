@@ -1,12 +1,81 @@
-/* .style1 {
-    font-size: 3em;
-    color: brown;
-    font-style: italic;
-} */
-.div-style {
-    height: 250px;
-    width: 800px;
-    margin-top: 20px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.login-container {
+	width: 350px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+h1 {
+    margin: 0 0 20px;
+    font-size: 24px;
+}
+
+.social-buttons {
+    margin: 20px 0;
+}
+
+button {
+    display: block;
+    width: 100%;
     padding: 10px;
-    background-color: lightcoral;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button i {
+    margin-right: 10px;
+}
+
+.google {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+linkedin {
+    background-color: #0077B5;
+    color: #fff;
+}
+
+.email {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.terms {
+	font-size: .75rem;
+	padding: 5px 44px;
+	line-height: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #2196F3;
+}
+.login-container p {
+	font-size: .75rem;
 }
